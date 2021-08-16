@@ -1,37 +1,33 @@
 ## Hexa Remote
 
-You can use the [editor on GitHub](https://github.com/yongtheskill/HexaRemoteAbout/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use this app to control a Hexa robot from Vincross through a game controller (ps4 controller etc.)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Connecting to hexa
 
-### Markdown
+1. Install the HexaControl skill in the Vincross Hexa app:
+![image](https://github.com/yongtheskill/HexaRemoteAbout/raw/gh-pages/HexaControlQR.jpeg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. Use the HexaControl skill to launch the HexaRemote app from inside the Vincross Hexa app.
+3. After the Hexa Remote app launches, connect your controller to your device and start controlling Hexa!
 
-```markdown
-Syntax highlighted code block
+### Modifying controller bindings
 
-# Header 1
-## Header 2
-### Header 3
+After connecting your game controller to your device, open the Hexa Remote app and press the "Setup Controller" button to edit the controller bindings
 
-- Bulleted
-- List
+### Using the controller
 
-1. Numbered
-2. List
+The default bindings are the following:
+- Right stick for walking
+- Left stick for rotating head and tilting up and down
+- Direction pad for changing lift/step length
+- XYAB for changing gait
+- left/right triggers for rotating body
+- left/right shoulder buttons for stepping through gait types
+- menu button to toggle marching mode
+- home button to relax
 
-**Bold** and _Italic_ and `Code` text
+### Robot status display
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yongtheskill/HexaRemoteAbout/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+After connecting the controller, details of the robot such as gait type, lift, step length, and if marching mode is enabled is displayed.
+> These values will change even if the connection to the robot is lost. 
+> To check the connection with Hexa, open the Hexa app and launch the HexaControl skill to ensure a connection.
